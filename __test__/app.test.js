@@ -1,8 +1,5 @@
 import { assert } from 'chai';
 
-import evenAndOdd from '../app';
-
-
 describe('Testing Even Odd number function', () => {
   it('should return an object', () => {
     const result = evenAndOdd([2, 3, 5, 34, 54, 765, 34, 23, 23, 54]);
